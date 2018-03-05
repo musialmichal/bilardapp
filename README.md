@@ -1,1 +1,1 @@
-# billard-booking
+# billiard-table-booking repo
