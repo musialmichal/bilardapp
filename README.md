@@ -1,7 +1,8 @@
-# Zastosowania Informatyki w Gospodarce (P)
+## Zastosowania Informatyki w Gospodarce (P)
 ### System Rezerwacji Stołów Bilardowych
 
 Termin: **piątek 7.30**
+
 Prowadzący: **dr inż. Marek Woda**
 
 Skład grupy:
