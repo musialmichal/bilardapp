@@ -9,4 +9,4 @@ Skład grupy:
 * **Kamil Bialucha** (kierownik)
 * **Sara Dorociak**
 * **Szymon Fiedler** (piątek 11.15)
-* **Maciej Musiał**
+* **Michał Musiał**
