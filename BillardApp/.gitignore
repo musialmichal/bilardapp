@@ -1,23 +1,4 @@
-<<<<<<< HEAD
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @musialmichal
- Sign out
-2
-0 1 k-bialucha/billiard-table-booking
- Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights
-billiard-table-booking/.gitignore
-70516b3  a day ago
-@k-bialucha k-bialucha Initial commit
-     
-56 lines (41 sloc)  760 Bytes
-=======
->>>>>>> cb882ddab314d7785efe55bf753b6d6622347cf0
+==========ANDROID==========
 # Built application files
 *.apk
 *.ap_
@@ -73,18 +54,58 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
-<<<<<<< HEAD
-© 2018 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-API
-Training
-Shop
-Blog
-About
-=======
->>>>>>> cb882ddab314d7785efe55bf753b6d6622347cf0
+
+==========PYTHON==========
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+==========IDE==========
+.vscode

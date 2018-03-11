@@ -25,12 +25,7 @@ SECRET_KEY = '=x%6z2dhg6rw(@av0+f$$6)li7_g0muflj!k_^_!htmrkyrr##'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'ec2-18-217-215-212.us-east-2.compute.amazonaws.com',
-    '18.217.215.212'
-]
+ALLOWED_HOSTS ]
 
 
 # Application definition
@@ -78,23 +73,13 @@ WSGI_APPLICATION = 'testsite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-#}
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'innodb',                   # Or path to database file if using sqlite3.
-        'USER': 'webroot',                      # Not used with sqlite3.
-        'PASSWORD': 'webroot123',                  # Not used with sqlite3.
-        'HOST': 'bilardapp.c6daxmywxacx.us-east-1.rds.amazonaws.com',                      # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '3306',                      # Set to empty string for default. Not used with sqlite3.
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -133,4 +118,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static/'
-
