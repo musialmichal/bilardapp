@@ -90,7 +90,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'innodb',                   # Or path to database file if using sqlite3.
         'USER': 'webroot',                      # Not used with sqlite3.
-        'PASSWORD': 'webroot123',                  # Not used with sqlite3.
+        'PASSWORD': 'x',                  # Not used with sqlite3.
         'HOST': 'bilardapp.c6daxmywxacx.us-east-1.rds.amazonaws.com',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '3306',                      # Set to empty string for default. Not used with sqlite3.
     }
